@@ -1,0 +1,39 @@
+.Task {
+    background: #FFF;
+    min-height: 5rem;
+    border-radius: 5px;
+    color: black;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;   
+    cursor: move;     
+}
+
+.bottomWrap {
+    display: flex;    
+    justify-content: space-between;
+}
+
+.status {
+    font-size: small;
+    background-color: var(--COLOR-GRAY-LIGHT);
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+
+.Planned {
+    background-color: var(--COLOR-PLANNED);
+}
+
+.Ongoing {
+    background-color: var(--COLOR-ONGOING);
+}
+
+.Done {
+    background-color: var(--COLOR-DONE);
+}
+.delete {
+    cursor: pointer;
+}
